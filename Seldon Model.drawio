@@ -1,64 +1,110 @@
-<mxfile host="app.diagrams.net" modified="2022-12-15T03:44:36.687Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="yKV8IKqc-73vXsPE_OVu" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-12-15T04:34:06.280Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="bWekWTgv4a0NFQ3QAzyC" type="github" pages="2">
   <diagram id="vGSsd8pcp9Vny-MlBKTw" name="Page-1">
     <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="URQGrf1QsGIIg5rgwLao-15" value="Model Interaction &amp;amp; Management&amp;nbsp;" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
-          <mxGeometry x="960" y="60" width="840" height="520" as="geometry" />
+        <mxCell id="URQGrf1QsGIIg5rgwLao-30" value="Model Interaction &amp;amp; Management&amp;nbsp;" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110.00000000000045" y="30" width="839.9999999999995" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="URQGrf1QsGIIg5rgwLao-16" value="Seldon Resource" style="swimlane;startSize=20;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-15">
-          <mxGeometry y="20" width="360" height="500" as="geometry">
-            <mxRectangle y="20" width="50" height="500" as="alternateBounds" />
-          </mxGeometry>
+        <mxCell id="URQGrf1QsGIIg5rgwLao-31" value="Seldon Core Resource" style="swimlane;startSize=20;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-30">
+          <mxGeometry y="20" width="359.99999999999955" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="URQGrf1QsGIIg5rgwLao-23" value="Seldon Core" style="swimlane;startSize=20;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-15">
-          <mxGeometry x="360" y="20" width="480" height="500" as="geometry" />
-        </mxCell>
-        <mxCell id="URQGrf1QsGIIg5rgwLao-1" value="Model SeldonDeployment Lifecycle" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-23">
-          <mxGeometry y="20" width="480" height="480" as="geometry" />
-        </mxCell>
-        <mxCell id="URQGrf1QsGIIg5rgwLao-2" value="Creation" style="swimlane;startSize=20;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-1">
-          <mxGeometry y="20" width="120" height="460" as="geometry" />
-        </mxCell>
-        <mxCell id="URQGrf1QsGIIg5rgwLao-13" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-2">
-          <mxGeometry y="20" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="URQGrf1QsGIIg5rgwLao-3" value="Operator" style="swimlane;startSize=20;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-1">
-          <mxGeometry x="120" y="20" width="120" height="460" as="geometry" />
-        </mxCell>
-        <mxCell id="URQGrf1QsGIIg5rgwLao-4" value="Monitor" style="swimlane;startSize=20;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-1">
-          <mxGeometry x="240" y="20" width="120" height="460" as="geometry" />
-        </mxCell>
-        <mxCell id="URQGrf1QsGIIg5rgwLao-5" value="Deletion" style="swimlane;startSize=20;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-1">
-          <mxGeometry x="360" y="20" width="120" height="460" as="geometry" />
-        </mxCell>
-        <mxCell id="URQGrf1QsGIIg5rgwLao-30" value="Model Resource Management&amp;nbsp;" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420.00000000000045" y="150" width="360" height="480" as="geometry" />
-        </mxCell>
-        <mxCell id="URQGrf1QsGIIg5rgwLao-31" value="Resource Mangement" style="swimlane;startSize=20;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-30">
-          <mxGeometry y="20" width="120" height="460" as="geometry" />
-        </mxCell>
-        <mxCell id="URQGrf1QsGIIg5rgwLao-32" value="Lane 2" style="swimlane;startSize=20;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-30">
-          <mxGeometry x="120" y="20" width="120" height="460" as="geometry" />
-        </mxCell>
-        <mxCell id="URQGrf1QsGIIg5rgwLao-33" value="Lane 3" style="swimlane;startSize=20;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-30">
-          <mxGeometry x="240" y="20" width="120" height="460" as="geometry" />
-        </mxCell>
-        <mxCell id="URQGrf1QsGIIg5rgwLao-19" value="Model Resource Configuration&amp;nbsp;" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
-          <mxGeometry x="839" y="630" width="480" height="480" as="geometry" />
+        <mxCell id="URQGrf1QsGIIg5rgwLao-19" value="Model Resource Configuration&amp;nbsp;" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-31">
+          <mxGeometry x="-1.0000000000004547" y="20" width="361" height="480" as="geometry" />
         </mxCell>
         <mxCell id="URQGrf1QsGIIg5rgwLao-20" value="Secret" style="swimlane;startSize=20;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-19">
-          <mxGeometry y="20" width="120" height="460" as="geometry" />
+          <mxGeometry y="20" width="121" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="URQGrf1QsGIIg5rgwLao-77" value="Rclone" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-20">
+          <mxGeometry x="1" y="20" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="URQGrf1QsGIIg5rgwLao-78" value="Minio" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-20">
+          <mxGeometry x="1" y="70" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="URQGrf1QsGIIg5rgwLao-79" value="BatchJob" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-20">
+          <mxGeometry y="120" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="URQGrf1QsGIIg5rgwLao-21" value="ConfigMap" style="swimlane;startSize=20;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-19">
+          <mxGeometry x="121" y="20" width="120" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="URQGrf1QsGIIg5rgwLao-80" value="Seldon-policy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-21">
+          <mxGeometry y="20" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="URQGrf1QsGIIg5rgwLao-22" value="Common" style="swimlane;startSize=20;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-19">
+          <mxGeometry x="241" y="20" width="120" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="URQGrf1QsGIIg5rgwLao-81" value="ServiceAccount" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-22">
+          <mxGeometry y="20" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="URQGrf1QsGIIg5rgwLao-82" value="Role" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-22">
+          <mxGeometry y="70" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="URQGrf1QsGIIg5rgwLao-83" value="ResourceQuota" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-22">
+          <mxGeometry y="120" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="URQGrf1QsGIIg5rgwLao-84" value="LimitRange" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-22">
+          <mxGeometry y="170" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="URQGrf1QsGIIg5rgwLao-32" value="Seldon Core Model" style="swimlane;startSize=20;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-30">
+          <mxGeometry x="359.99999999999955" y="20" width="480" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="URQGrf1QsGIIg5rgwLao-44" value="Model SeldonDeployment Lifecycle" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-32">
+          <mxGeometry y="20" width="480" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="URQGrf1QsGIIg5rgwLao-45" value="Deploy" style="swimlane;startSize=20;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-44">
+          <mxGeometry y="20" width="120" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="URQGrf1QsGIIg5rgwLao-46" value="Create" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-45">
+          <mxGeometry y="20" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="URQGrf1QsGIIg5rgwLao-50" value="Update" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-45">
+          <mxGeometry y="70" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="URQGrf1QsGIIg5rgwLao-67" value="Validate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-45">
+          <mxGeometry y="120" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="URQGrf1QsGIIg5rgwLao-73" value="Search" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-45">
+          <mxGeometry y="170" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="URQGrf1QsGIIg5rgwLao-47" value="Operator" style="swimlane;startSize=20;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-44">
           <mxGeometry x="120" y="20" width="120" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="URQGrf1QsGIIg5rgwLao-22" value="ServiceAccount" style="swimlane;startSize=20;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-19">
+        <mxCell id="URQGrf1QsGIIg5rgwLao-51" value="&lt;h3&gt;&lt;font style=&quot;font-size: 12px; font-weight: normal;&quot;&gt;Predict&lt;/font&gt;&lt;/h3&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-47">
+          <mxGeometry y="20" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="URQGrf1QsGIIg5rgwLao-52" value="&lt;h3&gt;&lt;font style=&quot;font-size: 12px; font-weight: normal;&quot;&gt;FeedBack&lt;/font&gt;&lt;/h3&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-47">
+          <mxGeometry y="70" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="URQGrf1QsGIIg5rgwLao-68" value="BatchJob" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-47">
+          <mxGeometry y="120" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="URQGrf1QsGIIg5rgwLao-69" value="Model Explanations" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-47">
+          <mxGeometry y="170" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="URQGrf1QsGIIg5rgwLao-70" value="Outlier Detection" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-47">
+          <mxGeometry y="220" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="URQGrf1QsGIIg5rgwLao-71" value="Drift Detection" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-47">
+          <mxGeometry y="270" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="URQGrf1QsGIIg5rgwLao-48" value="Monitor" style="swimlane;startSize=20;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-44">
           <mxGeometry x="240" y="20" width="120" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="URQGrf1QsGIIg5rgwLao-36" value="Role" style="swimlane;startSize=20;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-19">
+        <mxCell id="URQGrf1QsGIIg5rgwLao-72" value="&lt;h3&gt;&lt;font style=&quot;font-size: 12px; font-weight: normal;&quot;&gt;Prediction Requests&lt;/font&gt;&lt;/h3&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-48">
+          <mxGeometry y="20" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="URQGrf1QsGIIg5rgwLao-74" value="&lt;h3&gt;&lt;font style=&quot;font-size: 12px; font-weight: normal;&quot;&gt;Metrics&lt;/font&gt;&lt;/h3&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-48">
+          <mxGeometry y="70" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="URQGrf1QsGIIg5rgwLao-49" value="Deletion" style="swimlane;startSize=20;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-44">
           <mxGeometry x="360" y="20" width="120" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="URQGrf1QsGIIg5rgwLao-75" value="&lt;h3&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Pod&lt;/span&gt;&lt;/h3&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-49">
+          <mxGeometry y="20" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="URQGrf1QsGIIg5rgwLao-76" value="&lt;h3&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Deployment&lt;/span&gt;&lt;/h3&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="URQGrf1QsGIIg5rgwLao-49">
+          <mxGeometry y="70" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
